@@ -51,7 +51,7 @@ public class GestionDesEtudiantsApplication  implements CommandLineRunner{
 		Page<Etudiant> etd=etudiantRepository.chercher("%b%", PageRequest.of(0,3));
 		
 		etd.forEach(x-> System.out.println("testhhhhhhh"+x.getNom()));
-		etd.forEach(x-> System.out.println("testhhhhhhgggislamh"+x.getNom()));
+		etd.forEach(x-> System.out.println("testhhhhhhgggish"+x.getNom()));
 	}
 
 }
